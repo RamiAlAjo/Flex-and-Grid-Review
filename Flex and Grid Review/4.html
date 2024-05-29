@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+    color: rgb(255, 255, 255);
+
+}
+
+.Maingrid {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 600px;
+    column-gap: 1px;
+    background-color: #ffffff;
+}
+
+.Offers {
+    background-image: url("Pic/Pic1.png");
+    background-size: 100%;
+    grid-row: 1/ 3;
+    grid-column: 1/ 2;
+}
+
+.Extra {
+    background-image: url("Pic/Pic2.png");
+    background-size: 100%;
+    grid-column: 2/3;
+}
+
+.SmartLife {
+    background-image: url("Pic/Pic3.png");
+    background-size: 100%;
+    grid-column: 2/3;
+}
+
+
+.Navgrid {
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.imgcontiner1,
+.imgcontiner2,
+.imgcontiner3,
+.imgcontiner4,
+.imgcontiner5 {
+    margin-top: 10px;
+    padding: 5px;
+    display: grid;
+    grid-column: 1/3;
+    grid-template-columns: 40% 60%;
+    border: 2px solid rgb(164, 161, 161);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgcontiner1 {
+    background-color: #FF7900;
+    border: 2px solid #FF7900;
+    border-bottom: solid 4px #FF7900;
+
+}
+
+.imgcontiner1 h4 {
+    color: white;
+}
+
+.imgcontiner2 {
+
+    border-bottom: solid 4px #50BE87;
+}
+
+.imgcontiner3 {
+
+    border-bottom: solid 4px #44BBE6;
+}
+
+.imgcontiner4 {
+
+    border-bottom: solid 4px #A885D8;
+}
+
+.imgcontiner5 {
+
+    border-bottom: solid 4px #FFB4E6;
+}
+
+.Offers h5,
+.Offers h1 {
+    color: #FF7900;
+}
+
+article {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.Extra h3,
+.Extra p {
+    margin-left: 340px;
+    margin-top: 30px;
+}
+
+.Extra h5 {
+
+    margin-left: 340px;
+    margin-top: -10px;
+
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.SmartLife h3 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.SmartLife p {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.SmartLife h5 {
+
+    margin-left: 20px;
+    margin-top: -10px;
+
+
+}
+h4 {
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+    <div class="Maingrid">
+
+        <div class="Offers">
+            <article>
+                <h5> Offers & Services</h5>
+                <h1>Offers and<br>Services</h1>
+                <h2>Stay connected to<br>people in your life</h2><br>
+                <p>Best 4G+ and unlimited Internet<br>bundles and features with Orange<br>Mobile Lines</p>
+            </article>
+        </div>
+        
+        <div class="Extra">
+            <h3>Orange Extra</h3>
+            <p>
+                Enjoy the ultimate experience of lifestyle &<br> leisure with your Orange internet subscription</p>
+                <div>
+                <p>ــــــ</p>
+                <h5><a href="https://www.orange.jo/en/extra/pages/default.aspx">Explore More</a></h5></div>
+        </div>
+        
+        <div class="SmartLife">
+            <h3>Smart Life</h3>
+            <p>Wide selection of smart life devices to make<br>your life easier from Orange</p>
+            <div>
+                <p>ــــــ</p>
+                <h5><a href="https://www.orange.jo/en/offers/smartlife/Pages/default.aspx">Explore More</a></h5></div>
+        </div>
+        
+        <div class="Navgrid">
+
+            <div class="nav1">
+                <div class="imgcontiner1">
+                    <img src="Pic\nav1.png">
+                    <h4>Mobile Offers </h4>
+                </div>
+            </div>
+
+            <div class="nav1">
+                <div class="imgcontiner2">
+                    <img src="Pic\nav2.png">
+                    <h4>Internet Offers</h4>
+                </div>
+            </div>
+
+            <div class="nav1">
+                <div class="imgcontiner3">
+                    <img src="Pic\nav3.png">
+                    <h4>Devices</h4>
+                </div>
+            </div>
+
+            <div class="nav1">
+                <div class="imgcontiner4">
+                    <img src="Pic\nav4.png">
+                    <h4>International &<br>Roaming</h4>
+                </div>
+            </div>
+
+            <div class="nav1">
+                <div class="imgcontiner5">
+                    <img src="Pic\nav5.png">
+                    <h4>Fixed Lines</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
